@@ -11,9 +11,6 @@ import "../styles/index.scss";
 //import your own components
 import { Home } from "./component/home.js";
 
-//render your react application
-//setInverval(ReactDOM.render(<Home />, document.querySelector("#app")), 1000);
-
 let seconds = 0;
 setInterval(() => {
 	seconds++;
