@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export const SecondsCounter = props => {
 	return (
-		<div className="bg-dark text-center d-flex justify-content-around text-white p-4">
+		<div className="bg-dark text-white text-center d-flex justify-content-center">
 			<h1>
 				<i className="far fa-clock"></i>
 			</h1>
