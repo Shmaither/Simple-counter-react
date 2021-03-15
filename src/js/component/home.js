@@ -7,15 +7,13 @@ import { SecondsCounter } from "./secondsCounter";
 
 //create your first component
 
-export function Home(props) {
+export const Home = props => {
 	return (
 		<>
-			<h1>
-				<SecondsCounter value={props.value} />
-			</h1>
+			<SecondsCounter value={props.value} />
 		</>
 	);
-}
+};
 
 Home.propTypes = {
 	value: PropTypes.number
