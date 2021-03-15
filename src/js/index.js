@@ -16,6 +16,6 @@ import { Home } from "./component/home.js";
 
 let seconds = 0;
 setInterval(() => {
-	seconds = seconds + 1;
+	seconds++;
 	ReactDOM.render(<Home value={seconds} />, document.querySelector("#app"));
 }, 1000);
